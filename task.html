@@ -74,19 +74,25 @@
 
 <body>
     <h1>Проверка размещения прямоугольников</h1>
-    <div>
-        <h2>Внутренний прямоугольник (a, b)</h2>
-        <p><b>Сторона a:</b> <br> <input type="number" id="a" min='0' step="1"></p>
-        <p><b>Сторона b:</b> <br> <input type="number" id="b" min='0' step="1"></p>
-    </div>
-    <div>
-        <h2>Внешний прямоугольник (c, d)</h2>
-        <p><b>Сторона c:</b> <br> <input type="number" id="c" min='0' step="1"></p>
-        <p><b>Сторона d:</b> <br> <input type="number" id="d" min='0' step="1"></p>
-    </div>
-    <button id="checkButton">Проверить</button>
-    <h2 id="result"></h2>
+    <div class="anket">
+        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <p><input type="hidden"  name="q" value="search" ></p>
+            <h2>Внутренний прямоугольник (a, b)</h2>
+            <p><b>Сторона a:</b> <br> <input type="number" name="a" min='0' step="1" value=""></p>
+            <p><b>Сторона b:</b> <br> <input type="number" name="b" min='0' step="1" value=""></p>
+            <h2>Внешний прямоугольник (c, d)</h2>
+        <p><b>Сторона c:</b> <br> <input type="number" name="c" min='0' step="1" value=""></p>
+        <p><b>Сторона d:</b> <br> <input type="number" name="d" min='0' step="1" value=""></p>
+    
+        
+      
+        <button id="checkButton">Проверить</button>
+        <h2 id="result"></h2>
+        </form>
+        
 
+    </div>
+ 
     <script src="task.js"></script>
 </body>
 </html>
